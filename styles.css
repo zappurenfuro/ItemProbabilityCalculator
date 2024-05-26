@@ -1,0 +1,162 @@
+body {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    overflow-y: auto;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05em;
+}
+
+label {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.button-group {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button.set-chances-button {
+    width: 50%;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+button.set-chances-button:hover {
+    background-color: #0056b3;
+}
+
+button.export-button {
+    width: 25%;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+button.export-button:hover {
+    background-color: #218838;
+}
+
+button.import-button {
+    width: 25%;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background-color: #ffc107;
+    color: #000000;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+button.import-button:hover {
+    background-color: #e0a800;
+}
+
+button.calculate-button {
+    width: 100%;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+button.calculate-button:hover {
+    background-color: #0056b3;
+}
+
+input[type="number"], input[type="text"], select {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus, input[type="text"]:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.result-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #3a3a3a;
+    border-radius: 8px;
+    border: 1px solid #3a3a3a;
+}
+
+.result-section h3 {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
