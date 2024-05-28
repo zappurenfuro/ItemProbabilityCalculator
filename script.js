@@ -30,7 +30,6 @@ function addChances() {
 
     document.getElementById('calculate-button-container').style.display = 'block';
 
-    // Make sure the custom names and minimum groups are properly displayed
     toggleCustomNames();
     toggleMode();
 }
@@ -163,7 +162,7 @@ function displayResults(items, rolls, chances, itemNames) {
     for (let i = 0; i < items; i++) {
         const expectedRolls = calculateExpectedRolls(chances[i]);
         allItemsRolls = Math.max(allItemsRolls, expectedRolls);
-        expectedRollsHtml += `<li>${itemNames[i]} is expected to be obtained at least once in ${expectedRolls} rolls.</li>`;
+        expectedRollsHtml += `<li>${itemNames[i]} - obtained once in every ${expectedRolls} rolls.</li>`;
     }
     expectedRollsHtml += `</ul><p>${allItemsRolls} rolls is expected to get each of the items at least once.</p>`;
 
